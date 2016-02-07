@@ -1,10 +1,9 @@
-package com.alienkorp.supermariobros;
+package com.alienkorp.Main;
 
+import com.alienkorp.Screens.PlayScreen;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-
-import screens.PlayScreen;
 
 public class SuperMarioBros extends Game {
 	public SpriteBatch batch;

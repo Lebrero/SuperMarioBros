@@ -1,8 +1,9 @@
-package screens;
+package com.alienkorp.Screens;
 
 import org.w3c.dom.css.Rect;
 
-import com.alienkorp.supermariobros.SuperMarioBros;
+import com.alienkorp.Hud.Hud;
+import com.alienkorp.Main.SuperMarioBros;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
@@ -21,8 +22,6 @@ import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.viewport.FitViewport;
-
-import hud.Hud;
 
 public class PlayScreen implements Screen {
 
